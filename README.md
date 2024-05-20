@@ -57,7 +57,15 @@ In order to ensure that the Laravel community is welcoming to all, please review
 
 ## Security Vulnerabilities
 
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
+![image](https://github.com/GabrielNeves24/CineMagic/assets/100974974/d9c19b20-5e2e-4fa8-9c11-2172b7855f53)
+
+![image](https://github.com/GabrielNeves24/CineMagic/assets/100974974/c7a28b1c-d1f9-4fdd-8641-859cea2190da)
+
+![image](https://github.com/GabrielNeves24/CineMagic/assets/100974974/0573d886-3d31-4891-b578-05eecd09ec66)
+
+![image](https://github.com/GabrielNeves24/CineMagic/assets/100974974/a0176e43-6888-4b12-9ffc-78b51e15f8e5)
+
+![image](https://github.com/GabrielNeves24/CineMagic/assets/100974974/a7fc36f4-5a97-4d59-ad85-7563a0ee45a9)
 
 ## License
 
