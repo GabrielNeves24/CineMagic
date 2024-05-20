@@ -1,62 +1,35 @@
-<p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400"></a></p>
 
-<p align="center">
-<a href="https://travis-ci.org/laravel/framework"><img src="https://travis-ci.org/laravel/framework.svg" alt="Build Status"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/dt/laravel/framework" alt="Total Downloads"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/v/laravel/framework" alt="Latest Stable Version"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
-</p>
+#### CineMagic
+## Overview
 
-## About Laravel
+CineMagic is a comprehensive web application developed for managing cinema operations, from ticket sales to session management, designed for the CineMagic cinema company. Utilizing Laravel, a robust PHP framework, the application provides functionalities across multiple domains including user authentication, movie session scheduling, ticket purchasing, and access control.
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
+## Features
 
-- [Simple, fast routing engine](https://laravel.com/docs/routing).
-- [Powerful dependency injection container](https://laravel.com/docs/container).
-- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
-- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
-- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
-- [Robust background job processing](https://laravel.com/docs/queues).
-- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
+#User Authentication and Management: Supports login with email and password, password recovery, and user profile management. Different user roles (customer, staff, admin) have distinct permissions and access levels within the system.
+#Movies Display: Allows all users, including unauthenticated ones, to view currently showing films, their details, and sessions available.
+#Ticket Purchasing: Users can add tickets to a shopping cart and proceed to checkout using various payment methods like Visa, PayPal, or MB Way. The system simulates payment processing.
+#Seat Selection: Interactive seat selection is available, showing occupied and available seats for each session.
+#History, Receipts, and Tickets: Successful purchases generate receipts and tickets, which are sent to the user's email. Users can access their purchase history and tickets via unique URLs.
+#Session Access Control: Staff can verify ticket validity at cinema entry points and manage session access based on ticket statuses.
+#Business Administration: Admins can manage movies, sessions, rooms, and business parameters like ticket prices and VAT rates. Statistical data on sales and occupancy rates can be visualized and exported.
+#Database and Payment Simulation: Utilizes Laravel migrations for database structure and includes a simulated payment system.
 
-Laravel is accessible, powerful, and provides tools required for large, robust applications.
+## Technical Details
 
-## Learning Laravel
-
-Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework.
-
-If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Laracasts contains over 2000 video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
-
-## Laravel Sponsors
-
-We would like to extend our thanks to the following sponsors for funding Laravel development. If you are interested in becoming a sponsor, please visit the Laravel [Patreon page](https://patreon.com/taylorotwell).
+Architecture: Follows MVC architecture, utilizing Laravel's Eloquent ORM for database interactions, blade templates for views, and adheres to RESTful service principles.
+Security: Ensures secure operations with authentication and authorization checks, leveraging Laravel's built-in security features.
+Performance and Optimization: Implements efficient database queries and utilizes caching and queuing where appropriate to enhance performance.
 
 ### Premium Partners
 
-- **[Vehikl](https://vehikl.com/)**
-- **[Tighten Co.](https://tighten.co)**
-- **[Kirschbaum Development Group](https://kirschbaumdevelopment.com)**
-- **[64 Robots](https://64robots.com)**
-- **[Cubet Techno Labs](https://cubettech.com)**
-- **[Cyber-Duck](https://cyber-duck.co.uk)**
-- **[Many](https://www.many.co.uk)**
-- **[Webdock, Fast VPS Hosting](https://www.webdock.io/en)**
-- **[DevSquad](https://devsquad.com)**
-- **[Curotec](https://www.curotec.com/services/technologies/laravel/)**
-- **[OP.GG](https://op.gg)**
-- **[WebReinvent](https://webreinvent.com/?utm_source=laravel&utm_medium=github&utm_campaign=patreon-sponsors)**
-- **[Lendio](https://lendio.com)**
+#User Interface
+The application features a clean and intuitive interface, ensuring a seamless user experience with responsive design suitable for various devices.
 
-## Contributing
+#Development and Deployment
+Developed as part of an academic project, the application demonstrates the practical application of software engineering principles and web development best practices.
 
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
-
-## Code of Conduct
-
-In order to ensure that the Laravel community is welcoming to all, please review and abide by the [Code of Conduct](https://laravel.com/docs/contributions#code-of-conduct).
-
-## Security Vulnerabilities
-
+## Some Visual Info :)
 ![image](https://github.com/GabrielNeves24/CineMagic/assets/100974974/d9c19b20-5e2e-4fa8-9c11-2172b7855f53)
 
 ![image](https://github.com/GabrielNeves24/CineMagic/assets/100974974/c7a28b1c-d1f9-4fdd-8641-859cea2190da)
@@ -67,6 +40,10 @@ In order to ensure that the Laravel community is welcoming to all, please review
 
 ![image](https://github.com/GabrielNeves24/CineMagic/assets/100974974/a7fc36f4-5a97-4d59-ad85-7563a0ee45a9)
 
-## License
+![image](https://github.com/GabrielNeves24/CineMagic/assets/100974974/7f757590-4b9c-4a7f-b9ae-842aff22b043)
 
-The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+![image](https://github.com/GabrielNeves24/CineMagic/assets/100974974/213e320b-a1b6-467c-9ca5-6d2915a1c575)
+
+![image](https://github.com/GabrielNeves24/CineMagic/assets/100974974/d1262326-369c-4665-a586-e2470b361a12)
+
+
