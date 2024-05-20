@@ -1,18 +1,18 @@
 
-#### CineMagic
+## CineMagic
 ## Overview
 
 CineMagic is a comprehensive web application developed for managing cinema operations, from ticket sales to session management, designed for the CineMagic cinema company. Utilizing Laravel, a robust PHP framework, the application provides functionalities across multiple domains including user authentication, movie session scheduling, ticket purchasing, and access control.
 
 ## Features
 
-#User Authentication and Management: Supports login with email and password, password recovery, and user profile management. Different user roles (customer, staff, admin) have distinct permissions and access levels within the system.
-#Movies Display: Allows all users, including unauthenticated ones, to view currently showing films, their details, and sessions available.
-#Ticket Purchasing: Users can add tickets to a shopping cart and proceed to checkout using various payment methods like Visa, PayPal, or MB Way. The system simulates payment processing.
-#Seat Selection: Interactive seat selection is available, showing occupied and available seats for each session.
-#History, Receipts, and Tickets: Successful purchases generate receipts and tickets, which are sent to the user's email. Users can access their purchase history and tickets via unique URLs.
-#Session Access Control: Staff can verify ticket validity at cinema entry points and manage session access based on ticket statuses.
-#Business Administration: Admins can manage movies, sessions, rooms, and business parameters like ticket prices and VAT rates. Statistical data on sales and occupancy rates can be visualized and exported.
+# User Authentication and Management: Supports login with email and password, password recovery, and user profile management. Different user roles (customer, staff, admin) have distinct permissions and access levels within the system.
+# Movies Display: Allows all users, including unauthenticated ones, to view currently showing films, their details, and sessions available.
+# Ticket Purchasing: Users can add tickets to a shopping cart and proceed to checkout using various payment methods like Visa, PayPal, or MB Way. The system simulates payment processing.
+# Seat Selection: Interactive seat selection is available, showing occupied and available seats for each session.
+# History, Receipts, and Tickets: Successful purchases generate receipts and tickets, which are sent to the user's email. Users can access their purchase history and tickets via unique URLs.
+# Session Access Control: Staff can verify ticket validity at cinema entry points and manage session access based on ticket statuses.
+# Business Administration: Admins can manage movies, sessions, rooms, and business parameters like ticket prices and VAT rates. Statistical data on sales and occupancy rates can be visualized and exported.
 #Database and Payment Simulation: Utilizes Laravel migrations for database structure and includes a simulated payment system.
 
 ## Technical Details
@@ -23,10 +23,10 @@ Performance and Optimization: Implements efficient database queries and utilizes
 
 ### Premium Partners
 
-#User Interface
+# User Interface
 The application features a clean and intuitive interface, ensuring a seamless user experience with responsive design suitable for various devices.
 
-#Development and Deployment
+# Development and Deployment
 Developed as part of an academic project, the application demonstrates the practical application of software engineering principles and web development best practices.
 
 ## Some Visual Info :)
